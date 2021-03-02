@@ -1,0 +1,22 @@
+{
+  "name" : "Gnoll",
+  "description" : "Spoken by Gnolls",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.gnoll", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "gnoll",
+        "set_value" : {
+          "name" : "Gnoll",
+          "description" : "Spoken by Gnolls"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Giant",
+  "description" : "This brutish tongue and its numerous minor variants are spoken in any region where the wrath of giants is known.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.giant", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "giant",
+        "set_value" : {
+          "name" : "Giant",
+          "description" : "This brutish tongue and its numerous minor variants are spoken in any region where the wrath of giants is known."
+        }
+      }
+    ]
+  }
+}

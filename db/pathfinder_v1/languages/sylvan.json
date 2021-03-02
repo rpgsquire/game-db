@@ -1,0 +1,22 @@
+{
+  "name" : "Sylvan",
+  "description" : "The language of the Fey, this language is also spoken by Centaurs, Unicorns, and plant-based creatures",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.sylvan", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "sylvan",
+        "set_value" : {
+          "name" : "Sylvan",
+          "description" : "The language of the Fey, this language is also spoken by Centaurs, Unicorns, and plant-based creatures"
+        }
+      }
+    ]
+  }
+}

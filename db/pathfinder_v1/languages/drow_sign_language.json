@@ -1,0 +1,22 @@
+{
+  "name" : "Drow Sign Language",
+  "description" : "[Unspoken] A secret sign language created and shared only among the drow race",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.drow_sign_language", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "drow_sign_language",
+        "set_value" : {
+          "name" : "Drow Sign Language",
+          "description" : "[Unspoken] A secret sign language created and shared only among the drow race"
+        }
+      }
+    ]
+  }
+}

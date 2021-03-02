@@ -1,0 +1,22 @@
+{
+  "name" : "Aboleth",
+  "description" : "Spoken by Aboleth and other deep sea aberrations",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.aboleth", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "aboleth",
+        "set_value" : {
+          "name" : "Aboleth",
+          "description" : "Spoken by Aboleth and other deep sea aberrations"
+        }
+      }
+    ]
+  }
+}

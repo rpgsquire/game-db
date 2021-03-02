@@ -1,0 +1,22 @@
+{
+  "name" : "Necril",
+  "description" : "An ancient language of the dead, this whispering tongue is shared among undead and is often associated with necromancy.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.necril", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "necril",
+        "set_value" : {
+          "name" : "Necril",
+          "description" : "An ancient language of the dead, this whispering tongue is shared among undead and is often associated with necromancy."
+        }
+      }
+    ]
+  }
+}

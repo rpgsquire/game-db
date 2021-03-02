@@ -1,0 +1,22 @@
+{
+  "name" : "Sphinx",
+  "description" : "An uncommon language typically only spoken by Sphinxes",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.sphinx", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "sphinx",
+        "set_value" : {
+          "name" : "Sphinx",
+          "description" : "An uncommon language typically only spoken by Sphinxes"
+        }
+      }
+    ]
+  }
+}

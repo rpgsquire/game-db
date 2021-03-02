@@ -1,0 +1,22 @@
+{
+  "name" : "Orc",
+  "description" : "A common language created and used by Orcs",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.orc", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "orc",
+        "set_value" : {
+          "name" : "Orc",
+          "description" : "A common language created and used by Orcs"
+        }
+      }
+    ]
+  }
+}

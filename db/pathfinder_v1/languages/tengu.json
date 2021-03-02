@@ -1,0 +1,22 @@
+{
+  "name" : "Tengu",
+  "description" : "The official language of the Tengu race.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.tengu", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "tengu",
+        "set_value" : {
+          "name" : "Tengu",
+          "description" : "The official language of the Tengu race."
+        }
+      }
+    ]
+  }
+}

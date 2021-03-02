@@ -1,0 +1,22 @@
+{
+  "name" : "D’ziriak",
+  "description" : "The insectoid d’ziriak language consists of buzzes and chitters. It is an obscure one known by few outside their race.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.dziriak", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "dziriak",
+        "set_value" : {
+          "name" : "D’ziriak",
+          "description" : "The insectoid d’ziriak language consists of buzzes and chitters. It is an obscure one known by few outside their race."
+        }
+      }
+    ]
+  }
+}

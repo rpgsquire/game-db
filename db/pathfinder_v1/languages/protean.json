@@ -1,0 +1,22 @@
+{
+  "name" : "Protean",
+  "description" : "Like the Proteans chaotic nature, this language is mutable, evolving so quickly that few outsiders can understand it without magical aid.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.protean", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "protean",
+        "set_value" : {
+          "name" : "Protean",
+          "description" : "Like the Proteans chaotic nature, this language is mutable, evolving so quickly that few outsiders can understand it without magical aid."
+        }
+      }
+    ]
+  }
+}

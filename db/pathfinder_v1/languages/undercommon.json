@@ -1,0 +1,22 @@
+{
+  "name" : "Undercommon",
+  "description" : "The language of the underdark, this is derived from an ancient combination of Elven and even older tongues. Typically used by Drow, Duergar, Morlocks, Svirfneblin, and other creatures of the underworld.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.undercommon", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "undercommon",
+        "set_value" : {
+          "name" : "Undercommon",
+          "description" : "The language of the underdark, this is derived from an ancient combination of Elven and even older tongues. Typically used by Drow, Duergar, Morlocks, Svirfneblin, and other creatures of the underworld."
+        }
+      }
+    ]
+  }
+}

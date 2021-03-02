@@ -1,0 +1,22 @@
+{
+  "name" : "Vegepygmy",
+  "description" : "[Unspoken] This is a crude language of rhythmic taps, beats, and clicks created by the vegepygmies (who cannot speak).",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.vegepygmy", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "vegepygmy",
+        "set_value" : {
+          "name" : "Vegepygmy",
+          "description" : "[Unspoken] This is a crude language of rhythmic taps, beats, and clicks created by the vegepygmies (who cannot speak)."
+        }
+      }
+    ]
+  }
+}

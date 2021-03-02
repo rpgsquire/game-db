@@ -1,0 +1,22 @@
+{
+  "name" : "Treant",
+  "description" : "An uncommon language typically only spoken by Treants",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.treant", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "treant",
+        "set_value" : {
+          "name" : "Treant",
+          "description" : "An uncommon language typically only spoken by Treants"
+        }
+      }
+    ]
+  }
+}

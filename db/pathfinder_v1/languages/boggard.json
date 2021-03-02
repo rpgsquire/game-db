@@ -1,0 +1,22 @@
+{
+  "name" : "Boggard",
+  "description" : "Spoken primarily by boggards.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.boggard", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "boggard",
+        "set_value" : {
+          "name" : "Boggard",
+          "description" : "Spoken primarily by boggards."
+        }
+      }
+    ]
+  }
+}

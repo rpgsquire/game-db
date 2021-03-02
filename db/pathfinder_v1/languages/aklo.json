@@ -1,0 +1,22 @@
+{
+  "name" : "Aklo",
+  "description" : "This ancient tongue is spoken by strange eldritch entities, and certain ancient beings (Derro, otherworldy monsters, evil fey)",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.aklo", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "aklo",
+        "set_value" : {
+          "name" : "Aklo",
+          "description" : "This ancient tongue is spoken by strange eldritch entities, and certain ancient beings (Derro, otherworldy monsters, evil fey)"
+        }
+      }
+    ]
+  }
+}

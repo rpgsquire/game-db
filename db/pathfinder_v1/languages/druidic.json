@@ -1,0 +1,22 @@
+{
+  "name" : "Druidic",
+  "description" : "A secret language only known to Druids. This has it own alphabet and is forbidden to be taught to non-Druids.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.druidic", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "druidic",
+        "set_value" : {
+          "name" : "Druidic",
+          "description" : "A secret language only known to Druids. This has it own alphabet and is forbidden to be taught to non-Druids."
+        }
+      }
+    ]
+  }
+}

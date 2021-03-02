@@ -1,0 +1,22 @@
+{
+  "name" : "Goblin",
+  "description" : "The official language of hobgoblins, this is also used by goblins and bugbears",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.goblin", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "goblin",
+        "set_value" : {
+          "name" : "Goblin",
+          "description" : "The official language of hobgoblins, this is also used by goblins and bugbears"
+        }
+      }
+    ]
+  }
+}

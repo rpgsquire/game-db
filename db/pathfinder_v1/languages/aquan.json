@@ -1,0 +1,22 @@
+{
+  "name" : "Aquan",
+  "description" : "The so-called “tongue of the sea” is spoken primarily in the sunken nation of the locathahs— those who trade frequently with the ocean empires often speak this tongue as well.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.aquan", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "aquan",
+        "set_value" : {
+          "name" : "Aquan",
+          "description" : "The so-called “tongue of the sea” is spoken primarily in the sunken nation of the locathahs— those who trade frequently with the ocean empires often speak this tongue as well."
+        }
+      }
+    ]
+  }
+}

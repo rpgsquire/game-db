@@ -1,0 +1,22 @@
+{
+  "name" : "Terran",
+  "description" : "Called the \"Tongue of Earth\" due to being used by earth-based creatures from the elemental planes.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.terran", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "terran",
+        "set_value" : {
+          "name" : "Terran",
+          "description" : "Called the \"Tongue of Earth\" due to being used by earth-based creatures from the elemental planes."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name" : "Gnome",
+  "description" : "A common language typically spoken by Gnomes",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.gnome", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "gnome",
+        "set_value" : {
+          "name" : "Gnome",
+          "description" : "A common language typically spoken by Gnomes"
+        }
+      }
+    ]
+  }
+}

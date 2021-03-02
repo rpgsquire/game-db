@@ -1,0 +1,22 @@
+{
+  "name" : "Cyclops",
+  "description" : "Once the ancient language of the giants, this tongue was created by the cyclops before the rise of humanity.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.cyclops", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "cyclops",
+        "set_value" : {
+          "name" : "Cyclops",
+          "description" : "Once the ancient language of the giants, this tongue was created by the cyclops before the rise of humanity."
+        }
+      }
+    ]
+  }
+}

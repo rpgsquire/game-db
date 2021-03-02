@@ -1,0 +1,22 @@
+{
+  "name" : "Ignan",
+  "description" : "Called the \"Tongue of Fire\" due to being used by fire-based creatures from the elemental planes.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.ignan", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "ignan",
+        "set_value" : {
+          "name" : "Ignan",
+          "description" : "Called the \"Tongue of Fire\" due to being used by fire-based creatures from the elemental planes."
+        }
+      }
+    ]
+  }
+}

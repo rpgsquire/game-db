@@ -1,0 +1,22 @@
+{
+  "name" : "Infernal",
+  "description" : "The language of devils, this is often used by evil spirits or lawful-evil outsiders.",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.infernal", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "infernal",
+        "set_value" : {
+          "name" : "Infernal",
+          "description" : "The language of devils, this is often used by evil spirits or lawful-evil outsiders."
+        }
+      }
+    ]
+  }
+}

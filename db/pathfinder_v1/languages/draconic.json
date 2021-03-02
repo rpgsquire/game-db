@@ -1,0 +1,22 @@
+{
+  "name" : "Draconic",
+  "description" : "Primary language of dragons, this is also spoken by various other reptilian humanoids",
+  "is_enhanced" : true,
+  "source" : "Pathfinder Official",
+  "source_url" : "https://www.d20pfsrd.com/skills/linguistics",
+  "requirements" : {
+    "if" : { "path": "languages.draconic", "comparison" : "notexist" }
+  },
+  "change" : {
+    "on_enable" : [
+      {
+        "itempath" : "languages",
+        "set_id" : "draconic",
+        "set_value" : {
+          "name" : "Draconic",
+          "description" : "Primary language of dragons, this is also spoken by various other reptilian humanoids"
+        }
+      }
+    ]
+  }
+}
