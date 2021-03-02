@@ -1,3 +1,8 @@
+#Special excludes for the game database
+# Never include the auto-generated index files
+_index.json
+
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
