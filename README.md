@@ -5,7 +5,7 @@ The Squire Game System (SGS) is a general-purpose template system to assist with
 
 For details and examples of this JSON notation system, please look at the [Examples Directory]()
 
-[**Main Website**](https://rpgquire.com)
+[**Main Website**](https://rpgsquire.com)
 
 
 ## LICENSING
