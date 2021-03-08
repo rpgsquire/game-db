@@ -20,14 +20,22 @@ While the SGS can be used for any tabletop RPG in existence via the use of creat
 
 #### Pathfinder (1st Edition)
 * Current Status:  **UNAVAILABLE** - this is still being prepared and is currently unavailable.
-* Game Creator: [Paizo Inc:](https://paizo.com/)
+* Game Creator: [Paizo Inc](https://paizo.com/)
 * Game License: [Open Game License (OGL)](http://www.opengamingfoundation.org/ogl.html)
 * Release Year: 2009
-* Onine Reference Database (SRD): [d20PFSRD](https://www.d20pfsrd.com/)
+* Online Reference Database (SRD): [d20PFSRD](https://www.d20pfsrd.com/)
 
 #### Starfinder (1st Edition)
 * Current Status:  **UNAVAILABLE** - this is still being prepared and is currently unavailable.
-* Game Creator: [Paizo Inc:](https://paizo.com/)
+* Game Creator: [Paizo Inc](https://paizo.com/)
 * Game License: [Open Game License (OGL)](http://www.opengamingfoundation.org/ogl.html)
 * Release Year: 2016
-* Onine Reference Database (SRD): [Starjammer SRD](https://www.starjammersrd.com/)
+* Online Reference Database (SRD): [Starjammer SRD](https://www.starjammersrd.com/)
+
+#### Other RPG's planned for future additions
+* Mouseguard
+* Dungeons and Dragons (5th Edition)
+* No Thank You Evil
+* Shadowrun(?)
+
+Feel free to open up feature requests tickets for additional games.
