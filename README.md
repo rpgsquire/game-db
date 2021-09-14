@@ -1,11 +1,13 @@
 # Database of RPG Squire game components
-[![Contributors](https://img.shields.io/badge/Contributors-View-green.svg)](https://github.com/rpgsquire/game-db/graphs/contributors)  
+[![Contributors](https://img.shields.io/badge/Contributors-View-green.svg)](https://github.com/rpgsquire/game-db/graphs/contributors)
+[![Website](https://img.shields.io/badge/Website-Online-success)](https://rpgsquire.com)
+[![App](https://img.shields.io/badge/App-Online-blue)](https://app.rpgsquire.com)
 
 The Squire Game System (SGS) is a general-purpose template system to assist with running and playing Tabletop RPGs. It uses a sparse collection of small text files using the JSON file format to allow player to browse and import components into their individual character sheets as needed.
 
-For details and examples of this JSON notation system, please look at the [Examples Directory]()
+For details and examples of this JSON notation system, please look at the [Examples Directory](https://github.com/rpgsquire/game-db/tree/main/examples)
 
-[**Main Website**](https://rpgsquire.com)
+Note: The [RPG Squire online application](https://app.rpgsquire.com) has a full interface to creating, using, and submitting content to this database in a very intuitive way.
 
 
 ## LICENSING
